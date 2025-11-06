@@ -11,7 +11,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 
-import connectDB from "./config/Connectdb.js";
+import connectDB from "./config/connectdb.js";
 connectDB()
 // ✅ CORS (allow localhost + another laptop in same Wi-Fi)
 app.use(cors({
